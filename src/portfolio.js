@@ -225,25 +225,36 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ypolaris.jpeg"),
+      projectName: "Ypolaris 머신러닝 산학협력",
+      projectDesc: "Python 기반 영상 행동 분류 딥러닝 모델 구축, Keras 라이브러리 CNN과 LSTM 모델 사용 Input: 13개의 행동 영상 데이터셋 Output: 영상을 분류모델에 입력하면 Action ID를 출력 Testset accuracy 88% 이상 달성",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+          name: "View Github",
+          url: "https://github.com/dybalabak/4angle_cctv_recognition"
+        },
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/TESC.png"),
+      projectName: "TESC 용접 자동화 기기 심트래킹 기능 구현",
+      projectDesc: "Sysmac Studio를 통한 PLC 컨트롤, KEYENCE 데이터를 Ethernet/ip 통신을 통해 받아오고, 32bit 신호를 REAL DATA type으로 변환 후 심트래킹(용접기계가 정해진 용접선을 따라 구동하며, y축방향으로 오차가 생기는데, 오차를 KEYENCE센서를 통해 확인후 SERVO MOTOR를 구동해 보정 ) 구현을 위한 로직 작성 후 심트래킹 기능 구현",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/dybalabak/TESC"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/cafe24.png"),
+      projectName: "카페24 호스팅 웹 편집",
+      projectDesc: "e-커머스 기본 기능들 카페24 호스팅을 이용해 빠른시간내에 해결, 추가적인 서비스를 위한 기능( 구독, 대여 등) Angular 기반 마스터 페이지 제작을 통해 서비스 제작 ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://faav.co.kr/"
         }
       ]
     }
@@ -257,55 +268,37 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    //"Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  "",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "DACON 운동 동작 분류 AI 경진대회 상위 4%(팀명 : 최익현식AI)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "3축 가속도계(accelerometer)와 3축 자이로스코프(gyroscope)를 활용해 측정된 센서 데이터에 머신러닝 알고리즘을 적용해 운동 동작 인식 알고리즘 개발",
+      image: require("./assets/images/dacon.webp"),
       footerLink: [
         {
-          name: "Certification",
+          name: "View Link",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+            "https://www.dacon.io/competitions/official/235689/overview/"
         },
         {
-          name: "Award Letter",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "View Github",
+          url: "https://github.com/dybalabak/dacon"
         },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
       title: "261 house 기술블로그",
       subtitle:
         "작업도중 발생한 이슈 및 업무관련 학습내용 공유",
-      image: require("./assets/images/faavLogo.png"),
+      image: require("./assets/images/faav.jpeg"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "View Blog",
           url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+            "https://house261.github.io/angular/dybalabak-LifeCylcleHook/"
         }
       ]
     }
