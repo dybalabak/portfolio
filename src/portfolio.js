@@ -225,6 +225,21 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/gloory.png"),
+      projectName: "글루리 업무통합 시스템 구축(21.04~ 21.05 Exp)",
+      projectDesc: "AWS Serverless를 활용한 가볍고, 효율적인 백엔드 개발과 Angular를 통한 업무통합 시스템 구축(현재 AWS Serverless 활용한 백엔드 작업 및 프론트엔드 작업 진행중)",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://gloorybeta.s3-website-us-east-1.amazonaws.com/"
+        },
+        {
+          name: "View Github",
+          url: "https://github.com/dybalabak/gloory"
+        },
+        ]
+    },
+    {
       image: require("./assets/images/ypolaris.jpeg"),
       projectName: "Ypolaris 머신러닝 산학협력",
       projectDesc: "Python 기반 영상 행동 분류 딥러닝 모델 구축, Keras 라이브러리 CNN과 LSTM 모델 사용 Input: 13개의 행동 영상 데이터셋 Output: 영상을 분류모델에 입력하면 Action ID를 출력 Testset accuracy 88% 이상 달성",
@@ -258,6 +273,7 @@ const bigProjects = {
         }
       ]
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
