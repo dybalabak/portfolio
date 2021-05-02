@@ -289,7 +289,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "DACON 운동 동작 분류 AI 경진대회 상위 4%(팀명 : 최익현식AI)",
+      title: "DACON 운동 동작 분류 AI 경진대회 상위 3%(팀명 : 최익현식AI)",
       subtitle:
         "3축 가속도계(accelerometer)와 3축 자이로스코프(gyroscope)를 활용해 측정된 센서 데이터에 머신러닝 알고리즘을 적용해 운동 동작 인식 알고리즘 개발",
       image: require("./assets/images/dacon.webp"),
@@ -297,7 +297,7 @@ const achievementSection = {
         {
           name: "View Link",
           url:
-            "https://www.dacon.io/competitions/official/235689/overview/"
+            "https://www.dacon.io/competitions/official/235689/leaderboard/chart/"
         },
         {
           name: "View Github",
