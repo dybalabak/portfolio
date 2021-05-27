@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.bbc740bf.chunk.css",
-    "main.js": "/static/js/main.059344c4.chunk.js",
-    "main.js.map": "/static/js/main.059344c4.chunk.js.map",
+    "main.js": "/static/js/main.167a708c.chunk.js",
+    "main.js.map": "/static/js/main.167a708c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b8ab128c.js",
     "runtime-main.js.map": "/static/js/runtime-main.b8ab128c.js.map",
-    "static/js/2.5f54a48c.chunk.js": "/static/js/2.5f54a48c.chunk.js",
-    "static/js/2.5f54a48c.chunk.js.map": "/static/js/2.5f54a48c.chunk.js.map",
+    "static/js/2.6c8aa713.chunk.js": "/static/js/2.6c8aa713.chunk.js",
+    "static/js/2.6c8aa713.chunk.js.map": "/static/js/2.6c8aa713.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
     "static/js/3.1e6d87f5.chunk.js": "/static/js/3.1e6d87f5.chunk.js",
     "static/js/3.1e6d87f5.chunk.js.map": "/static/js/3.1e6d87f5.chunk.js.map",
@@ -14,12 +14,12 @@
     "static/js/4.5535bc08.chunk.js": "/static/js/4.5535bc08.chunk.js",
     "static/js/4.5535bc08.chunk.js.map": "/static/js/4.5535bc08.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.96ed174fd5a1e9ae66e2d1b5e9d1abb7.js": "/precache-manifest.96ed174fd5a1e9ae66e2d1b5e9d1abb7.js",
+    "precache-manifest.b6e95e81178d24ecb6f5f40c1e45731f.js": "/precache-manifest.b6e95e81178d24ecb6f5f40c1e45731f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/4.3e7d09e6.chunk.css.map": "/static/css/4.3e7d09e6.chunk.css.map",
     "static/css/main.bbc740bf.chunk.css.map": "/static/css/main.bbc740bf.chunk.css.map",
-    "static/js/2.5f54a48c.chunk.js.LICENSE.txt": "/static/js/2.5f54a48c.chunk.js.LICENSE.txt",
+    "static/js/2.6c8aa713.chunk.js.LICENSE.txt": "/static/js/2.6c8aa713.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/cafe24.png": "/static/media/cafe24.d25ae62f.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b8ab128c.js",
-    "static/js/2.5f54a48c.chunk.js",
+    "static/js/2.6c8aa713.chunk.js",
     "static/css/main.bbc740bf.chunk.css",
-    "static/js/main.059344c4.chunk.js"
+    "static/js/main.167a708c.chunk.js"
   ]
 }
