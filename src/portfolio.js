@@ -188,6 +188,30 @@ const workExperiences = {
       //  ""
       //]
     },
+    {
+      role: "Front-Back-End Developer",
+      company: "Glury",
+      companylogo: require("./assets/images/gloory.png"),
+      date: "April 2021 – May 2021",
+      desc:
+        "UN 산하기관 GSTC(Global Sustainable Tourism Council) 업무 시스템 1인 개발 (front-back-end)",
+      //descBullets: [
+      //  "",
+      //  ""
+      //]
+    },
+    {
+      role: "용접 자동화 기기 개발 PLC Programming(Programmable logic controller)",
+      company: "TESC",
+      companylogo: require("./assets/images/TESC.png"),
+      date: "March 2021 – ",
+      desc:
+        "프리랜서로 재직중이며, Sysmac Studio를 통한 PLC 컨트롤, KEYENCE 데이터를 Ethernet/ip 통신을 통해 받아오고, 32bit 신호를 REAL DATA type으로 변환 후 심트래킹(용접기계가 정해진 용접선을 따라 구동하며, y축방향으로 오차가 생기는데, 오차를 KEYENCE센서를 통해 확인후 SERVO MOTOR를 구동해 보정 ) 구현을 위한 로직 작성 후 심트래킹 기능 구현 및 기기 유지보수",
+      //descBullets: [
+      //  "",
+      //  ""
+      //]
+    }
     //{
     //  role: "Front-End Developer",
     //  company: "Quora",
@@ -227,7 +251,7 @@ const bigProjects = {
     {
       image: require("./assets/images/gloory.png"),
       projectName: "글루리 업무통합 시스템 구축(21.04~ 21.05 Exp)",
-      projectDesc: "AWS Serverless를 활용한 가볍고, 효율적인 백엔드 개발과 Angular를 통한 업무통합 시스템 구축(현재 AWS Serverless 활용한 백엔드 작업 및 프론트엔드 작업 진행중)",
+      projectDesc: "AWS Serverless를 활용한 가볍고, 효율적인 백엔드 개발과 Angular를 통한 업무통합 시스템 구축(현재 AWS Serverless 활용한 백엔드 작업 및 프론트엔드 1인 작업 진행중)",
       footerLink: [
         {
           name: "Visit Website",
